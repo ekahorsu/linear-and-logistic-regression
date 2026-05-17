@@ -1,14 +1,11 @@
-# ML Foundations: Linear and Logistic Regression
+# Linear and Logistic Regression
 
-> Project 1 of 5 in the ML Foundations portfolio. Implements linear and logistic regression from first principles using only NumPy, then validates the implementations against scikit-learn on real public datasets.
+> Implements linear and logistic regression from first principles using only NumPy, then validates the implementations against scikit-learn on real public datasets.
 
 ## What this project is
 
 Most ML practitioners reach for `sklearn.LinearRegression().fit(X, y)` without thinking about what's happening underneath. This project demonstrates I understand the layer below the API by implementing both algorithms from scratch — cost functions, gradients, batch gradient descent, L2 regularization, polynomial feature mapping — and then checking my work against scikit-learn on real data.
 
-## Why this matters
-
-Job interviews and ML engineering work both reward people who can debug models from first principles. A `sklearn` user who can't tell you why their gradient descent diverged is much less valuable than one who can.
 
 ## What's inside
 
@@ -39,8 +36,8 @@ This is the bias-variance tradeoff visualized in one figure.
 ## How to run
 
 ```bash
-git clone https://github.com/ekahorsu/ml-foundations-regression.git
-cd ml-foundations-regression
+git clone https://github.com/ekahorsu/linear-and-logistic-regression.git
+cd linear-and-logistic-regression
 pip install -r requirements.txt
 jupyter notebook linear_and_logistic_regression.ipynb
 ```
@@ -53,15 +50,3 @@ Tested with Python 3.10. All datasets are downloaded automatically by scikit-lea
 - **Matplotlib** — visualizations
 - **scikit-learn** — datasets, preprocessing, and validation baselines
 - **Jupyter** — notebook environment
-
-## What I'd extend next
-
-- Mini-batch / stochastic gradient descent for scalability
-- Cross-validation for principled λ selection
-- Multinomial (softmax) logistic regression for multi-class problems
-
-## About this portfolio
-
-This is one project in a 5-project ML Foundations portfolio built around the Andrew Ng Machine Learning Specialization (Coursera), with each project reframed around real public datasets and extended with validation, regularization, and discussion that go beyond the original lab scope.
-
-Author: **Etornam Kwasi Ahorsu** — PhD student in Electrical Engineering at the University of Nevada, Reno. Research focuses on optimization under uncertainty for power systems planning. [LinkedIn](#) · [GitHub](https://github.com/ekahorsu)
