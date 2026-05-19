@@ -51,7 +51,3 @@ Tested with Python 3.10. All datasets are downloaded automatically by scikit-lea
 - **Matplotlib** — visualizations
 - **scikit-learn** — datasets, preprocessing, and validation baselines
 - **Jupyter** — notebook environment
-
-## Author
-
-**Etornam Kwasi Ahorsu** — PhD student in Electrical Engineering at the University of Nevada, Reno. Research focuses on optimization under uncertainty for power systems planning. [GitHub](https://github.com/ekahorsu)
