@@ -4,7 +4,7 @@ A from-first-principles implementation of linear and logistic regression using o
 
 ## What this project is
 
-Most ML practitioners reach for `sklearn.LinearRegression().fit(X, y)` without thinking about what's happening underneath. This project implements both algorithms from scratch — cost functions, gradients, batch gradient descent, L2 regularization, polynomial feature mapping — and then validates the implementations against scikit-learn on real data.
+Most ML practitioners reach for `sklearn.LinearRegression().fit(X, y)` without thinking about what's happening underneath. This project implements both algorithms from scratch by using cost functions, gradients, batch gradient descent, L2 regularization, polynomial feature mapping, and then validates the implementations against scikit-learn on real data.
 
 The point isn't that NumPy beats scikit-learn. The point is to demonstrate a working understanding of the layer below the API: the math, the optimization, and the engineering decisions that make these algorithms practical.
 
