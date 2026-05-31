@@ -37,8 +37,8 @@ The bias-variance tradeoff visualized in one figure.
 ## How to run
 
 ```bash
-git clone https://github.com/ekahorsu/ml-foundations-regression.git
-cd ml-foundations-regression
+git clone https://github.com/ekahorsu/linear-and-logistic-regression.git
+cd linear-and-logistic-regression
 pip install -r requirements.txt
 jupyter notebook linear_and_logistic_regression.ipynb
 ```
