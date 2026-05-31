@@ -2,7 +2,7 @@
 
 A from-first-principles implementation of linear and logistic regression using only NumPy, validated against scikit-learn on real public datasets.
 
-> **Note on viewing the notebook:** GitHub's notebook preview is currently experiencing a platform-wide rendering outage. The key results and plots are reproduced below in this README. To view the full notebook, open `linear_and_logistic_regression.ipynb` locally in Jupyter.
+> **Note on viewing the notebook:** GitHub's notebook preview is currently experiencing a platform-wide rendering outage. The key results and plots are reproduced below in this README. The complete notebook's code and outputs are present in 'linear_and_logistic_regression.md.' To view the actual notebook, open `linear_and_logistic_regression.ipynb` locally in Jupyter. 
 
 ## Overview
 
