@@ -613,7 +613,7 @@ This is the **bias-variance tradeoff** in one picture. Regularization is the dia
 
 ### Key takeaways
 
-1. **The math is short, the engineering is long.** The cost and gradient functions are roughly five lines each. The bulk of any real ML project is data loading, scaling, train/test splits, hyperparameter choices, validation, and visualization.
+1. **While the underlying mathematics is brief, the engineering effort required to apply it correctly is considerable.** The cost and gradient functions are roughly five lines each. The bulk of any real ML project is data loading, scaling, train/test splits, hyperparameter choices, validation, and visualization.
 2. **Feature scaling is not optional for gradient descent.** Without `StandardScaler`, gradient descent on the multivariate housing data would either diverge or take orders of magnitude more iterations.
 3. **Regularization is a dial, not a switch.** Sweeping λ from 0 → 5 → 25 traces the full bias-variance curve in a single experiment: from chasing noise, to capturing the true pattern, to over-shrinking the model. In a real project, λ should be selected by cross-validation rather than hand-picked.
 4. **Validation matters.** Without comparing against scikit-learn, a subtly broken implementation could ship. Cross-checking against a trusted baseline is the single highest-value habit in ML engineering.
